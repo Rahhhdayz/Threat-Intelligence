@@ -16,7 +16,8 @@ This project is a custom-built **Threat Feed Aggregator** designed for Cyber Thr
 - [Optional] Streamlit dashboard for interactive IOC visualization
 
 ## Folder Structure
-<img width="608" alt="image" src="https://github.com/user-attachments/assets/b0693334-e854-475c-984f-8f8872852bbb" />
+<img width="639" alt="image" src="https://github.com/user-attachments/assets/5a46e79d-e9b9-4f68-a58d-b5732619ee3c" />
+
 
 
 ## Getting Started
