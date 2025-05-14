@@ -25,7 +25,7 @@ def save_iocs_to_json(iocs, filename):
     print(f"[+] Saved {len(iocs)} OTX IOCs to {filename}")
 
 if __name__ == "__main__":
-    api_key = "3e84854e6dd817bf259a620889927f24068ca35dcc5e6db0c9543135e58aca3f"
+    api_key = "[Your_API_KEY]"
     indicator_type = "IPv4"
     modified_since = "2024-01-01T00:00:00"
     output_file = f"otx_iocs.json"
