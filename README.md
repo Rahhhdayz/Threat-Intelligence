@@ -16,20 +16,8 @@ This project is a custom-built **Threat Feed Aggregator** designed for Cyber Thr
 - [Optional] Streamlit dashboard for interactive IOC visualization
 
 ## Folder Structure
-├──app.py # Streamlit App (optional)
-├── main.py # Core script
-├── otx_collector.py # Downloads and parses OTX feed
-├── feed_parser.py # Parses RSS feed and saves to JSON
-├── extractors/
-│ ├── regex_extractor.py # Regex-based IOC extraction
-│ └── nlp_extractor.py # Named Entity Recognition using spaCy
-├── enrichment/
-│ ├── virus_total.py # VirusTotal enrichment for hashes
-│ └── ip_enrich.py # AbusedIPDB enrichment for IPs
-├── otx_iocs.json # Raw OTX feed (output)
-├── rss_iocs.json # Raw RSS feed (output)
-├── merged_iocs.json # Final normalized IOCs
-└── requirements.txt # Python dependencies
+<img width="608" alt="image" src="https://github.com/user-attachments/assets/b0693334-e854-475c-984f-8f8872852bbb" />
+
 
 ## Getting Started
 
@@ -38,13 +26,19 @@ This project is a custom-built **Threat Feed Aggregator** designed for Cyber Thr
 ```bash
 git clone https://github.com/Rahhhdayz/Threat-Intelligence
 cd Threat-Intelligence
+```
 
 ### 2. Install Python dependencies:
+```bash
 pip install -r requirements.txt
-
+```
 ### 3. Set your API keys in a .env file:
+```bash
 VT_API_KEY=your_virustotal_key
 SHODAN_API_KEY=your_shodan_key
+```
 
 ### 4. Run the aggregator
+```bash
 python main.py
+```
