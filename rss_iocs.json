@@ -1,0 +1,72 @@
+[
+    {
+        "source": "ExploitDB",
+        "title": "[remote] Apache ActiveMQ 6.1.6 - Denial of Service (DOS)",
+        "link": "https://www.exploit-db.com/exploits/52288",
+        "summary": "Apache ActiveMQ 6.1.6 - Denial of Service (DOS)",
+        "published": "Fri, 09 May 2025 00:00:00 +0000"
+    },
+    {
+        "source": "ExploitDB",
+        "title": "[local] VirtualBox 7.0.16 - Privilege Escalation",
+        "link": "https://www.exploit-db.com/exploits/52287",
+        "summary": "VirtualBox 7.0.16 - Privilege Escalation",
+        "published": "Fri, 09 May 2025 00:00:00 +0000"
+    },
+    {
+        "source": "ExploitDB",
+        "title": "[webapps] SureTriggers OttoKit Plugin 1.0.82 - Privilege Escalation",
+        "link": "https://www.exploit-db.com/exploits/52286",
+        "summary": "SureTriggers OttoKit Plugin 1.0.82 - Privilege Escalation",
+        "published": "Fri, 09 May 2025 00:00:00 +0000"
+    },
+    {
+        "source": "ExploitDB",
+        "title": "[webapps] WordPress Depicter Plugin 3.6.1 - SQL Injection",
+        "link": "https://www.exploit-db.com/exploits/52285",
+        "summary": "WordPress Depicter Plugin 3.6.1 - SQL Injection",
+        "published": "Fri, 09 May 2025 00:00:00 +0000"
+    },
+    {
+        "source": "ExploitDB",
+        "title": "[local] Microsoft Windows 11 Pro 23H2 - Ancillary Function Driver for WinSock Privilege Escalation",
+        "link": "https://www.exploit-db.com/exploits/52284",
+        "summary": "Microsoft Windows 11 Pro 23H2 - Ancillary Function Driver for WinSock Privilege Escalation",
+        "published": "Fri, 09 May 2025 00:00:00 +0000"
+    },
+    {
+        "source": "The Hacker News",
+        "title": "Google Pays $1.375 Billion to Texas Over Unauthorized Tracking and Biometric Data Collection",
+        "link": "https://thehackernews.com/2025/05/google-pays-1375-billion-to-texas-over.html",
+        "summary": "Google has agreed to pay the U.S. state of Texas nearly $1.4 billion to settle two lawsuits that accused the company of tracking users' personal location and maintaining their facial recognition data without consent.\nThe $1.375 billion payment dwarfs the fines the tech giant has paid to settle similar lawsuits brought by other U.S. states. In November 2022, it paid $391 million to a group of 40",
+        "published": "Sat, 10 May 2025 12:24:00 +0530"
+    },
+    {
+        "source": "The Hacker News",
+        "title": "Germany Shuts Down eXch Over $1.9B Laundering, Seizes €34M in Crypto and 8TB of Data",
+        "link": "https://thehackernews.com/2025/05/germany-shuts-down-exch-over-19b.html",
+        "summary": "Germany's Federal Criminal Police Office (aka Bundeskriminalamt or BKA) has seized the online infrastructure and shutdown linked to the eXch cryptocurrency exchange over allegations of money laundering and operating a criminal trading platform.\nThe operation was carried out on April 30, 2025, authorities said, adding they also confiscated 8 terabytes worth of data and cryptocurrency assets",
+        "published": "Sat, 10 May 2025 12:17:00 +0530"
+    },
+    {
+        "source": "The Hacker News",
+        "title": "BREAKING: 7,000-Device Proxy Botnet Using IoT, EoL Systems Dismantled in U.S. - Dutch Operation",
+        "link": "https://thehackernews.com/2025/05/breaking-7000-device-proxy-botnet-using.html",
+        "summary": "A joint law enforcement operation undertaken by Dutch and U.S. authorities has dismantled a criminal proxy network that's powered by thousands of infected Internet of Things (IoT) and end-of-life (EoL) devices, enlisting them into a botnet for providing anonymity to malicious actors.\nIn conjunction with the domain seizure, Russian nationals, Alexey Viktorovich Chertkov, 37, Kirill Vladimirovich",
+        "published": "Fri, 09 May 2025 21:58:00 +0530"
+    },
+    {
+        "source": "The Hacker News",
+        "title": "OtterCookie v4 Adds VM Detection and Chrome, MetaMask Credential Theft Capabilities",
+        "link": "https://thehackernews.com/2025/05/ottercookie-v4-adds-vm-detection-and.html",
+        "summary": "The North Korean threat actors behind the Contagious Interview campaign have been observed using updated versions of a cross-platform malware called OtterCookie with capabilities to steal credentials from web browsers and other files.\nNTT Security Holdings, which detailed the new findings, said the attackers have \"actively and continuously\" updated the malware, introducing versions v3 and v4 in",
+        "published": "Fri, 09 May 2025 21:55:00 +0530"
+    },
+    {
+        "source": "The Hacker News",
+        "title": "Initial Access Brokers Target Brazil Execs via NF-e Spam and Legit RMM Trials",
+        "link": "https://thehackernews.com/2025/05/initial-access-brokers-target-brazil.html",
+        "summary": "Cybersecurity researchers are warning of a new campaign that's targeting Portuguese-speaking users in Brazil with trial versions of commercial remote monitoring and management (RMM) software since January 2025.\n\"The spam message uses the Brazilian electronic invoice system, NF-e, as a lure to entice users into clicking hyperlinks and accessing malicious content hosted in Dropbox,\" Cisco Talos",
+        "published": "Fri, 09 May 2025 17:10:00 +0530"
+    }
+]
