@@ -42,3 +42,8 @@ SHODAN_API_KEY=your_shodan_key
 ```bash
 python main.py
 ```
+
+### 5. Run the Streamlit dashboard
+```bash
+streamlit run dashboard/app.py
+```
