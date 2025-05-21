@@ -1,3 +1,7 @@
-pip install feedparser requests pandas nltk spacy beautifulsoup4 stix2
-python -m nltk.downloader all
-python -m spacy download en_core_web_sm
+feedparser
+requests
+pandas
+nltk
+spacy==3.8.0
+beautifulsoup4
+stix2
