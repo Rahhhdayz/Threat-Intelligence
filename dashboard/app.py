@@ -1,5 +1,6 @@
 import streamlit as st
 import json
+import os
 
 # Load Merged IOCs
 def load_ioc_json(file_path):
@@ -14,8 +15,12 @@ def load_ioc_json(file_path):
 st.set_page_config(page_title="Threat Feed Dashboard", layout="wide")
 st.title("Threat Feed Dashboard")
 
+# Resolve path to the merged IOC JSON
+base_dir = os.path.dirname(__file__)  # gets the path of dashboard/
+json_path = os.path.join(base_dir, "..", "final_merged_iocs.json")  # points to root
+
 # Load the merged feed
-ioc_data = load_ioc_json(" ../final_merged_iocs.json")
+ioc_data = load_ioc_json(json_path)
 
 # Select IOC type from sidebar
 ioc_type = st.sidebar.selectbox("Choose IOC Type", ["ips", "domains", "urls", "hashes", "cves"])
