@@ -12,17 +12,17 @@ def load_ioc_json(file_path):
 
 # UI Setup
 st.set_page_config(page_title="Threat Feed Dashboard", layout="wide")
-st.title("🛡️ Merged Threat Feed Dashboard")
+st.title("Threat Feed Dashboard")
 
 # Load the merged feed
-ioc_data = load_ioc_json("final_merged_iocs.json")
+ioc_data = load_ioc_json("../final_merged_iocs.json")
 
 # Select IOC type from sidebar
 ioc_type = st.sidebar.selectbox("Choose IOC Type", ["ips", "domains", "urls", "hashes", "cves"])
 selected_iocs = ioc_data.get(ioc_type, [])
 
 # Display IOC Info
-st.subheader(f"{ioc_type.upper()} from Merged Feed")
+st.subheader(f"{ioc_type.upper()} ")
 st.metric(label="Total IOCs", value=len(selected_iocs))
 st.dataframe(selected_iocs, use_container_width=True)
 
