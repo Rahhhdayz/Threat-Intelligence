@@ -15,9 +15,8 @@ def load_ioc_json(file_path):
 st.set_page_config(page_title="Threat Feed Dashboard", layout="wide")
 st.title("Threat Feed Dashboard")
 
-# Resolve path to the merged IOC JSON
-base_dir = os.path.dirname(__file__)  # gets the path of dashboard/
-json_path = os.path.join(base_dir, "..", "final_merged_iocs.json")  # points to root
+base_dir = os.path.dirname(__file__) 
+json_path = os.path.join(base_dir, "..", "final_merged_iocs.json") 
 
 # Load the merged feed
 ioc_data = load_ioc_json(json_path)
