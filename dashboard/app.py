@@ -15,7 +15,7 @@ st.set_page_config(page_title="Threat Feed Dashboard", layout="wide")
 st.title("Threat Feed Dashboard")
 
 # Load the merged feed
-ioc_data = load_ioc_json("../final_merged_iocs.json")
+ioc_data = load_ioc_json(" ../final_merged_iocs.json")
 
 # Select IOC type from sidebar
 ioc_type = st.sidebar.selectbox("Choose IOC Type", ["ips", "domains", "urls", "hashes", "cves"])
